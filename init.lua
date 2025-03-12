@@ -18,7 +18,6 @@ vim.opt.sidescrolloff    = 8
 -- Set leader key to space
 vim.g.mapleader = " "
 
--- =============================--
 -- Install Lazy.nvim
 -- =============================--
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
