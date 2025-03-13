@@ -19,7 +19,7 @@ vim.opt.sidescrolloff    = 8
 vim.g.mapleader = " "
 
 -- Install Lazy.nvim
--- =============================--
+--=============================--
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not ((vim.loop and vim.loop.fs_stat and vim.loop.fs_stat(lazypath)) or vim.fn.isdirectory(lazypath) == 1) then
     vim.fn.system({
